@@ -1,6 +1,6 @@
 /*Practising CSS box model - Udemy Course*/
 /* by using box-sizing;border-box; across the body element, when you specifiy an element's width this automatically assigns the relevant padding, and border requirements and your overall spacing is just what you specified as the width*/
-body *{
+body, *{
 	box-sizing:border-box; /*add this to every style sheet*/
 }
 
